@@ -60,7 +60,7 @@ p::selection {
   align-items: center;
   margin: auto;
   width: 250px;
-  max-height: 100vh;
+  max-height: 80vh;
   /* height: 400px; */
 }
 
