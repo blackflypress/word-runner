@@ -53,14 +53,14 @@ p::selection {
 }
 
 #wrapper {
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   /* border-radius: 5px; */
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   margin: auto;
   width: 250px;
-  max-height: 400px;
+  max-height: 100vh;
   /* height: 400px; */
 }
 
