@@ -1,0 +1,136 @@
+/* * { */
+/* border: 1px solid red; */
+/* } */
+
+:root {
+  --full-width: 100%;
+  ;
+}
+
+
+body {
+  font-family: sans-serif;
+}
+
+/* #swiper { */
+/* height: 100%; */
+/* max-width: 600px; */
+/* margin: auto; */
+/* padding: 10px; */
+/* font-family: monospace; */
+/* background-color: #1a1a1a; */
+/* color: #e5e5e5; */
+/* } */
+
+/* hr { */
+/* margin-top: 30px; */
+/* } */
+
+/* pre { */
+/* white-space: pre-wrap; */
+/* } */
+
+/* p { */
+/* overflow-wrap: break-word; */
+/* } */
+
+/* .highlight { */
+/* background-color: #e5e5e5; */
+/* color: #1a1a1a; */
+/* } */
+
+
+
+p::selection {
+  background-color: #0077ff;
+  color: #fff;
+}
+
+#wrapper {
+  border: 1px solid grey;
+  /* border-radius: 5px; */
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin: auto;
+  width: 250px;
+  height: 400px;
+}
+
+#output {
+  margin-bottom: 0px;
+  padding: 50px 0px;
+  text-align: center;
+  font-size: 25px;
+  width: 80%;
+  height: 150px;
+
+}
+
+#total-bar {
+  height: 5px;
+
+  width: 100%;
+  background-color: grey;
+}
+
+#wpm,
+#duration {
+
+  margin: 0px;
+  text-align: right;
+  width: fit-content;
+}
+
+#HUD {
+  width: 80%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#progress-bar {
+  width: 1%;
+  height: 5px;
+  background-color: dodgerblue;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+/* #total_bar { */
+/* width: 80%; */
+/* } */
+
+
+input {
+  width: 100%;
+}
+
+p {
+  /* margin: auto; */
+
+  width: 100%;
+}
+
+#playback {
+  width: 100%;
+  /* flex-flow: row nowrap; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#controls {
+  padding: 20px 0px;
+  height: 600px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  /* align-content: space-evenly; */
+
+  align-items: center;
+
+  justify-content: space-evenly;
+}

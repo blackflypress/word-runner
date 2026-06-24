@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WORD RUNNER</title>
+  <!-- Link your external CSS styles below -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- Your visible website content goes here -->
+    <!-- <h1>WORD RUNNER</h1> -->
+
+
+
+
+    <p id="output">Word Runner. </p>
+    <div id="HUD">
+      <p id="wpm"></p>
+      <p id="duration">0/0</p>
+    </div>
+
+    <div id="controls">
+
+
+      <div id="total-bar">
+        <div id="progress-bar"></div>
+      </div>
+
+      <!-- <br> -->
+      <div id="playback">
+        <button type="button" id="rewind-btn"> &#x25C0;&#x25C0; </button>
+        <button type="button" id="playPause-btn"> &#9654 </button>
+        <button type="button" id="stop-btn"> &#9632; </button>
+        <button type="button" id="forward-btn"> &#x25B6;&#x25B6; </button>
+      </div>
+      <!-- <br> -->
+
+      <input id="slider" type="range" min="100" max="900" value="300">
+      <br>
+      <input id="input" type="text" required>
+
+    </div>
+  </div>
+  <!-- Link your external JavaScript files below -->
+  <!-- <script src="script.js"></script> -->
+  <script src="fsm.js"></script>
+</body>
+
+</html>
