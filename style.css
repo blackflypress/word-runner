@@ -7,6 +7,16 @@
   ;
 }
 
+body {
+
+  margin: auto;
+  padding: 10px;
+  font-family: monospace;
+  background-color: #1a1a1a;
+  color: #e5e5e5;
+
+}
+
 
 body {
   font-family: sans-serif;
@@ -15,11 +25,7 @@ body {
 /* #swiper { */
 /* height: 100%; */
 /* max-width: 600px; */
-/* margin: auto; */
-/* padding: 10px; */
-/* font-family: monospace; */
-/* background-color: #1a1a1a; */
-/* color: #e5e5e5; */
+
 /* } */
 
 /* hr { */
@@ -54,7 +60,8 @@ p::selection {
   align-items: center;
   margin: auto;
   width: 250px;
-  height: 400px;
+  max-height: 400px;
+  /* height: 400px; */
 }
 
 #output {
