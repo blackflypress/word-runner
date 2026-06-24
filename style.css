@@ -105,6 +105,7 @@ p::selection {
 button {
   padding: 5px 10px;
   font-size: 15px;
+  margin: 1px;
 }
 
 /* #total_bar { */
@@ -130,7 +131,7 @@ p {
 }
 
 #controls {
-  padding: 20px 0px;
+  /* padding: 20px 0px; */
   height: 200px;
   display: flex;
   flex-flow: column nowrap;
