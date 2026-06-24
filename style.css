@@ -53,7 +53,7 @@ p::selection {
 }
 
 #wrapper {
-  /* border: 1px solid grey; */
+  border: 1px solid #e5e5e5;
   /* border-radius: 5px; */
   display: flex;
   flex-flow: column nowrap;
@@ -70,7 +70,7 @@ p::selection {
   text-align: center;
   font-size: 25px;
   width: 80%;
-  height: 150px;
+  height: 100px;
 
 }
 
@@ -78,7 +78,7 @@ p::selection {
   height: 5px;
 
   width: 100%;
-  background-color: grey;
+  background-color: #e5e5e5;
 }
 
 #wpm,
@@ -131,7 +131,7 @@ p {
 
 #controls {
   padding: 20px 0px;
-  height: 600px;
+  height: 200px;
   display: flex;
   flex-flow: column nowrap;
 
